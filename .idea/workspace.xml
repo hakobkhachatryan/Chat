@@ -2,12 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="04d5f67f-21ba-4dd3-8c8e-8992fa2179da" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/SendMessage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/Member.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Chat/test/Human.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Chat/test/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Chat/test/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/Human.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Chat/test/SendMessage.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Chat/test/SendMessage.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/SendMessage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/SendMessage.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,9 +35,22 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="configurable.group.editor" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="test.Main" />
+      <module name="Chat" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SendMessage" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.SendMessage" />
       <module name="Chat" />
       <extension name="coverage">
         <pattern>
@@ -52,6 +65,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main" />
+        <item itemvalue="Application.SendMessage" />
       </list>
     </recent_temporary>
   </component>
@@ -81,31 +95,40 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1576841105347">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state x="186" y="63" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1576911363300">
+      <screen x="0" y="23" width="1280" height="716" />
     </state>
     <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1576841105347" />
+    <state x="186" y="63" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1280.716@0.23.1280.716" timestamp="1576911363300" />
+    <state x="453" y="104" key="#com.intellij.ide.util.MemberChooser" timestamp="1576958488986">
+      <screen x="0" y="23" width="1280" height="721" />
+    </state>
+    <state x="453" y="104" key="#com.intellij.ide.util.MemberChooser/0.23.1280.721@0.23.1280.721" timestamp="1576958488986" />
     <state x="353" y="23" key="CommitChangelistDialog2" timestamp="1576860240323">
       <screen x="0" y="23" width="1280" height="716" />
     </state>
     <state x="424" y="5" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1576841051998" />
     <state x="353" y="23" key="CommitChangelistDialog2/0.23.1280.716@0.23.1280.716" timestamp="1576860240323" />
-    <state width="1238" height="176" key="GridCell.Tab.0.bottom" timestamp="1576863845288">
-      <screen x="0" y="23" width="1280" height="716" />
+    <state width="1238" height="210" key="GridCell.Tab.0.bottom" timestamp="1576963116774">
+      <screen x="0" y="23" width="1280" height="721" />
     </state>
-    <state width="1238" height="176" key="GridCell.Tab.0.bottom/0.23.1280.716@0.23.1280.716" timestamp="1576863845288" />
-    <state width="1238" height="176" key="GridCell.Tab.0.center" timestamp="1576863845287">
-      <screen x="0" y="23" width="1280" height="716" />
+    <state width="1238" height="176" key="GridCell.Tab.0.bottom/0.23.1280.716@0.23.1280.716" timestamp="1576948466548" />
+    <state width="1238" height="210" key="GridCell.Tab.0.bottom/0.23.1280.721@0.23.1280.721" timestamp="1576963116774" />
+    <state width="1238" height="210" key="GridCell.Tab.0.center" timestamp="1576963116772">
+      <screen x="0" y="23" width="1280" height="721" />
     </state>
-    <state width="1238" height="176" key="GridCell.Tab.0.center/0.23.1280.716@0.23.1280.716" timestamp="1576863845287" />
-    <state width="1238" height="176" key="GridCell.Tab.0.left" timestamp="1576863845286">
-      <screen x="0" y="23" width="1280" height="716" />
+    <state width="1238" height="176" key="GridCell.Tab.0.center/0.23.1280.716@0.23.1280.716" timestamp="1576948466546" />
+    <state width="1238" height="210" key="GridCell.Tab.0.center/0.23.1280.721@0.23.1280.721" timestamp="1576963116772" />
+    <state width="1238" height="210" key="GridCell.Tab.0.left" timestamp="1576963116772">
+      <screen x="0" y="23" width="1280" height="721" />
     </state>
-    <state width="1238" height="176" key="GridCell.Tab.0.left/0.23.1280.716@0.23.1280.716" timestamp="1576863845286" />
-    <state width="1238" height="176" key="GridCell.Tab.0.right" timestamp="1576863845287">
-      <screen x="0" y="23" width="1280" height="716" />
+    <state width="1238" height="176" key="GridCell.Tab.0.left/0.23.1280.716@0.23.1280.716" timestamp="1576948466545" />
+    <state width="1238" height="210" key="GridCell.Tab.0.left/0.23.1280.721@0.23.1280.721" timestamp="1576963116772" />
+    <state width="1238" height="210" key="GridCell.Tab.0.right" timestamp="1576963116773">
+      <screen x="0" y="23" width="1280" height="721" />
     </state>
-    <state width="1238" height="176" key="GridCell.Tab.0.right/0.23.1280.716@0.23.1280.716" timestamp="1576863845287" />
+    <state width="1238" height="176" key="GridCell.Tab.0.right/0.23.1280.716@0.23.1280.716" timestamp="1576948466547" />
+    <state width="1238" height="210" key="GridCell.Tab.0.right/0.23.1280.721@0.23.1280.721" timestamp="1576963116773" />
     <state x="277" y="54" key="SettingsEditor" timestamp="1576841090926">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -115,6 +138,15 @@
     </state>
     <state x="465" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1576838699539" />
     <state x="388" y="230" key="com.intellij.ide.util.TipDialog/0.23.1280.721@0.23.1280.721" timestamp="1576857858685" />
+    <state width="600" height="424" key="javadoc.popup" timestamp="1576959270619">
+      <screen x="0" y="23" width="1280" height="721" />
+    </state>
+    <state width="600" height="424" key="javadoc.popup/0.23.1280.721@0.23.1280.721" timestamp="1576959270619" />
+    <state x="69" y="23" key="new project wizard" timestamp="1576871096256">
+      <screen x="0" y="23" width="1280" height="716" />
+    </state>
+    <state x="69" y="23" key="new project wizard/0.23.1280.716@0.23.1280.716" timestamp="1576871096256" />
+    <state x="69" y="23" key="new project wizard/0.23.1280.723@0.23.1280.723" timestamp="1576870966759" />
     <state x="305" y="63" width="670" height="676" key="search.everywhere.popup" timestamp="1576860314168">
       <screen x="0" y="23" width="1280" height="716" />
     </state>
